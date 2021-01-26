@@ -1,0 +1,47 @@
+div {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid lightgray;
+  width: 800px;
+  text-align: center;
+}
+.wrap {
+  margin: 0 auto;
+  border: 1px solid lightgray;
+}
+#header {
+  width: 780px;
+  height: 100px;
+}
+#nav {
+  width: 780px;
+}
+#nav ul {
+  overflow: hidden;
+}
+#nav ul li {
+  border: 1px solid lightgray;
+  width: 140px;
+  height: 40px;
+  float: left;
+  text-align: center;
+  list-style: none;
+}
+#section {
+  overflow: hidden;
+  width: 780px;
+}
+#con {
+  width: 600px;
+  height: 300px;
+  float: left;
+}
+#ban {
+  width: 130px;
+  height: 300px;
+  float: left;
+}
+#footer {
+  width: 780px;
+  height: 100px;
+}
