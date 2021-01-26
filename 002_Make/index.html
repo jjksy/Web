@@ -1,27 +1,17 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"
-    />
+    <title>To Do List</title>
     <link rel="stylesheet" href="style.css" />
-
-    <title>ToDoApp</title>
   </head>
   <body>
     <h1>To Do List</h1>
-    <div class="input-group mb-3" style="width: 50%">
-      <input type="text" class="form-control" id="input" />
-      <button class="btn btn-outline-secondary" type="button" id="button">
-        저장
-      </button>
-    </div>
-    <ul class="list-group" style="width: 50%" id="list">
-      <li class="list-group-item">Write here things to do</li>
+    <button id="btnAdd">New Item</button>
+    <ul id="todolist">
+      <li><input type="checkbox" /><span>Write here</span></li>
     </ul>
+    <script src="main.js"></script>
   </body>
-  <script src="script.js"></script>
 </html>
