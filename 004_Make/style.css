@@ -1,0 +1,38 @@
+header {
+  font-size: 60px;
+  text-align: center;
+}
+nav {
+  width: auto;
+  height: 30px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+nav ul li {
+  margin-left: 20px;
+  padding: 0 0 0 0;
+  border: 0;
+  display: inline-block;
+}
+footer {
+  background-color: skyblue;
+  width: auto;
+  min-height: 50px;
+  text-align: center;
+}
+.main .left {
+  background-color: gray;
+  width: auto;
+}
+.main .right {
+  background-color: pink;
+  width: auto;
+}
+.main .center {
+  background-color: blue;
+  width: auto;
+}
