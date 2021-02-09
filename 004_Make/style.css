@@ -20,19 +20,34 @@ nav ul li {
 }
 footer {
   background-color: skyblue;
-  width: auto;
+  width: 99%;
   min-height: 50px;
   text-align: center;
+  margin: 10px auto;
+  line-height: 50px;
+}
+.main {
+  width: 99%;
+  height: 720px;
+  margin: 10px auto;
+  display: flex;
 }
 .main .left {
   background-color: gray;
-  width: auto;
-}
-.main .right {
-  background-color: pink;
-  width: auto;
+  flex: 1;
+  width: 30%;
+  box-sizing: border-box;
 }
 .main .center {
   background-color: blue;
-  width: auto;
+  width: 30%;
+  flex: 1;
+  margin: 0px 1.5%;
+  box-sizing: border-box;
+}
+.main .right {
+  background-color: pink;
+  width: 30%;
+  flex: 1;
+  box-sizing: border-box;
 }
