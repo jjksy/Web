@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+.topMenu li {
+  float: left;
+  display: inline-block;
+}
+.menu li{
+  float: left;
+}
