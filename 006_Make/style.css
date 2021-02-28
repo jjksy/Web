@@ -2,20 +2,20 @@
   margin: 0;
   padding: 0;
 }
-a
-{
-  color:inherit;
-text-decoration: none;
+a {
+  color: inherit;
+  text-decoration: none;
 }
-#main {
-  background: url(https://pixabay.com/get/g94f1c1a3e337c01eeaa68451bd15f0d7a396cfea396720b033e9b2a41e0bc99f8c1ad6dda4580f09d603d9c1912f105f_1920.jpg) no-repeat;
+#landing {
+  background: url(https://www.wallpapertip.com/wmimgs/27-270243_resolution-deep-sky-blue-solid-color-background-view.jpg)
+    no-repeat;
   background-size: cover;
   background-position: center center;
   width: 100vw;
   height: 100vh;
-  font-family: 'Dancing Script', cursive;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-#contents{
+#contents {
   color: white;
   text-align: center;
   position: absolute;
@@ -23,16 +23,16 @@ text-decoration: none;
   top: 50%;
   transform: translateY(-50%);
 }
-#contents h1{
-  font-family: 'Anton', sans-serif;
+#contents h1 {
+  font-family: "Anton", sans-serif;
   font-size: 70px;
   margin: 16px;
 }
-#contents p{
+#contents p {
   font-size: 23px;
   margin-bottom: 16px;
 }
-#contents a{
+#contents a {
   display: inline-block;
   border: 2px solid white;
   padding: 10px 20px;
@@ -41,17 +41,17 @@ text-decoration: none;
   font-weight: bold;
   transition: all 0.5s;
 }
-#contents a:hover{
+#contents a:hover {
   background-color: #262626;
 }
-@media(max-width:769px){
-  #contents h1{
+@media (max-width: 769px) {
+  #contents h1 {
     font-size: 50px;
   }
-  #contents p{
+  #contents p {
     font-size: 20px;
   }
-  #contents a{
+  #contents a {
     font-size: 14px;
   }
 }
