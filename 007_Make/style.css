@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+  overflow-x: hidden;
+}
+
+#container {
+  background: url(https://windowsforum.kr/files/attach/images/2966154/171/362/006/663ea0dfd8ecc0b6f43283cb278bb757.jpg)
+    no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100vw;
+  height: 100vh;
+}
+#First {
+  color: white;
+  font-size: 50px;
+  float: left;
+  margin-left: 100px;
+  margin-top: 60px;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+#First .name {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 100px;
+}
+#First .words {
+  color: white;
+  font-size: 50px;
+  font-family: "Do Hyeon", sans-serif;
+  position:absolute;
+  width: 100%;
+  top:90%;
+  transform: translateY(-90%);
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+@media(max-width: 769px){
+  #First{
+    font-size: 30px;
+  }
+  #First .name{
+    font-size: 80px;
+  }
+  #First .words{
+    font-size: 30px;
+  }
+
+}
