@@ -67,10 +67,9 @@ a {
   background-size: cover;
   background-position: center center;
 }
-#Second .profile_img{
-
+#Second .profile_img {
 }
-#Second .profile img{
+#Second .profile img {
   position: absolute;
   top: 110%;
   margin-left: 5%;
@@ -79,7 +78,7 @@ a {
   border: 3px solid white;
   border-radius: 50%;
 }
-#Second .profile  .name{
+#Second .profile .name {
   position: absolute;
   width: 100%;
   font-size: 30px;
@@ -87,6 +86,10 @@ a {
   top: 140%;
   margin-left: 5%;
 }
+#Second .rightSide {
+  float: left;
+}
+
 /* #Second .profile .name > h1{
   display: inline-block;
   margin-left: 2%;
