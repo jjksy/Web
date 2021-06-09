@@ -38,3 +38,79 @@ header .gnb li {
 header .gnb li:first-child {
   margin-left: 0;
 }
+/* container */
+#idx_top {
+  width: 100%;
+  padding: 150px 0;
+  background-color: #ccc;
+  text-align: center;
+}
+#idx_top strong,
+p {
+  color: #000;
+}
+#idx_top strong {
+  font-size: 60px;
+  letter-spacing: -2px;
+}
+#idx_top p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+#idx_board_wrap {
+  padding: 50px 0;
+  background-color: #e5e5e5;
+}
+.idx_board {
+  width: 500px;
+  background-color: #fff;
+}
+.idx_board .title {
+  position: relative;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+.idx_board .title a {
+  display: inline-block;
+  vertical-align: middle;
+}
+.idx_board .title .name {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+.idx_board .title .more {
+  position: absolute;
+  top: 24px;
+  right: 20px;
+}
+.idx_board .title .more img {
+  width: 30px;
+  /* margin-top: 4px; */
+  margin-left: 3px;
+}
+.idx_board .list {
+  padding: 20px;
+}
+.idx_board .list ul li {
+  margin-top: 10px;
+  font-size: 0;
+}
+.idx_board .list ul li :first-child {
+  margin-top: 0;
+}
+.idx_board .list a,
+.idx_board .list span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.idx_board .list a {
+  width: 80%;
+  font-size: 14px;
+}
+.idx_board .list span {
+  width: 20%;
+  text-align: right;
+  font-size: 12px;
+  color: #777;
+}
