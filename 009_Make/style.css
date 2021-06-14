@@ -61,9 +61,25 @@ p {
   padding: 50px 0;
   background-color: #e5e5e5;
 }
+#idx_board_wrap > div {
+  width: 90%;
+  min-width: 1000px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 0;
+}
 .idx_board {
-  width: 500px;
+  display: inline-block;
+  width: 48%;
   background-color: #fff;
+}
+#idx_board_wrap > div > div:nth-child(even) {
+  /* #idx_board_wrap > div >div 는 .idx_board와 동일 */
+  margin-left: 4%;
+}
+#idx_board_wrap > div > div:nth-child(3),
+#idx_board_wrap > div > div:nth-child(4) {
+  margin-top: 40px;
 }
 .idx_board .title {
   position: relative;
